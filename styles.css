@@ -268,15 +268,15 @@ a:focus-visible, button:focus-visible {
 
 .places {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .place {
   position: relative;
-  min-height: 260px;
-  border-radius: var(--radius);
-  padding: 2rem;
+  min-height: 220px;
+  border-radius: 22px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -298,16 +298,16 @@ a:focus-visible, button:focus-visible {
 .place-tag {
   align-self: flex-start;
   margin-bottom: auto;
-  padding: .35rem .8rem;
-  font-size: .75rem;
+  padding: .3rem .6rem;
+  font-size: .7rem;
   font-weight: 600;
   letter-spacing: .08em;
   text-transform: uppercase;
   border-radius: 999px;
   background: rgba(255,255,255,.18);
 }
-.place h3 { font-size: 2rem; letter-spacing: -.03em; line-height: 1.1; margin-top: 2rem; }
-.place p { margin-top: .5rem; color: rgba(255,255,255,.8); line-height: 1.5; }
+.place h3 { font-size: 1.35rem; letter-spacing: -.03em; line-height: 1.15; margin-top: 1.5rem; }
+.place p { margin-top: .5rem; color: rgba(255,255,255,.8); font-size: .9rem; line-height: 1.5; }
 
 /* ---------- Partner ---------- */
 .partner { padding: 5rem 0; text-align: center; }
@@ -365,7 +365,6 @@ a:focus-visible, button:focus-visible {
   .statement, .pillars, .where, .partner { padding: 3.5rem 0; }
   .lounge { padding-bottom: 3.5rem; }
   .places { grid-template-columns: 1fr; }
-  .place { min-height: 220px; }
   .bento { grid-template-columns: 1fr; }
   .tile-lg, .tile-wide { grid-column: span 1; }
   .stat-row { grid-template-columns: 1fr; }
